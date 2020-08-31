@@ -7,19 +7,14 @@ Theme for OctoberCMS. Based on [Identity-Theme](https://github.com/SaifurRahmanM
 
 ## Quick start installation
 
-To install from the Marketplace, click on the "Add to Project" button and then select the project you wish to add it to before updating the project to pull in the plugin.
+```
+[ -f artisan ] && cd themes
+wget https://github.com/JanrikV/Mythos/archive/master.zip
+[ -f master ] && unzip master || unzip master.zip
+rm $_
+`mv Mythos-master mythos && cd $_
+```
 
-Or 
-
-`php artisan theme:install AuthorName.ThemeName my-theme`
-
-Replace `<theme>` with the name of your theme.
-
-## Using the theme
-
-`$ php artisan theme:use <name>`
-
-Where `<name>` is whatever you specified in `theme:install`.
 
 ## Sources and Credits
 
