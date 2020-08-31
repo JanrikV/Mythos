@@ -5,7 +5,7 @@
 
 Theme for OctoberCMS. Based on [Identity-Theme](https://github.com/SaifurRahmanMohsin/Identity-Theme).
 
-## Quick start installation
+## Installation
 
 ```
 [ -f artisan ] && cd themes
