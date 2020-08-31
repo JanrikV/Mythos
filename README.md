@@ -1,3 +1,6 @@
+![Mythos OctoberCMS](https://raw.githubusercontent.com/JanrikV/Mythos/master/assets/images/mythos.png)
+
+
 # [Mythos](https://github.com/JanrikV/Mythos) #
 
 Theme for OctoberCMS. Based on [Identity-Theme](https://github.com/SaifurRahmanMohsin/Identity-Theme).
