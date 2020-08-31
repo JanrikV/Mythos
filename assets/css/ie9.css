@@ -1,0 +1,39 @@
+/*
+  Mythos
+  Based on Identity-Theme by Saifur Rahman Mohsin
+  html5up.net | @n33co
+  
+*/
+
+
+/* Basic */
+body {
+   background-image: url("../images/bg.jpg");
+   background-repeat: no-repeat;
+   background-size: cover; 
+   background-position: bottom center;
+   background-attachment: fixed;
+}
+
+body:after {
+   display: none;
+}
+
+/* List */
+ul.social-icons li a:before {
+   color: #c8cccf;
+}
+
+ul.social-icons li a:hover:before {
+   color: #ff7496;
+}
+
+/* Wrapper */
+#wrapper {
+   text-align: center;
+}
+
+/* Main */
+#main {
+   display: inline-block;
+}

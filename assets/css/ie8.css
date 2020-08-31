@@ -1,0 +1,34 @@
+/*
+  Mythos
+  Based on Identity-Theme by Saifur Rahman Mohsin
+  html5up.net | @n33co
+  
+*/
+
+/* List */
+ul.social-icons li a {
+   -ms-behavior: url("assets/js/PIE.htc");
+}
+
+ul.social-icons li a:before {
+   text-align: center;
+   font-size: 26px;
+}
+
+/* Main */
+#main {
+   -ms-behavior: url("assets/js/PIE.htc");
+}
+
+#main .avatar img {
+   -ms-behavior: url("assets/js/PIE.htc");
+}
+
+/* Footer */
+#footer {
+   color: #fff;
+}
+
+#footer .copyright li {
+   border-left: solid 1px #fff;
+}

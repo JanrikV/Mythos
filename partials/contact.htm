@@ -1,0 +1,13 @@
+description = "Contact Info"
+==
+
+<footer>
+    <ul class="contact-info">
+    {% if this.theme.phone != '' %}
+    <li><i class="fa fa-phone"></i> <a href="tel:{{ this.theme.phone }}">{{ this.theme.phone }}</a></li>
+    {% endif %}
+    {% if this.theme.email != '' %}
+    <li><i class="fa fa-at"></i> <a href="mailto:{{ this.theme.email }}">{{ this.theme.email }}</a></li>
+    {% endif %}
+    </ul>
+</footer> 

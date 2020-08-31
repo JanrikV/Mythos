@@ -1,0 +1,44 @@
+description = "Default Layout"
+==
+<!DOCTYPE html>
+<!--
+	Mythos
+	Based on Identity-Theme by Saifur Rahman Mohsin
+	html5up.net | @n33co
+-->
+<html>
+	<head>
+		<title>{{ this.theme.site_name }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="referrer" content="strict-origin" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{{ 'assets/css/main.css'|theme }}" />
+		<link rel="stylesheet" href="{{ 'assets/css/fontawesome.min.css'|theme }}" />
+		<link rel="stylesheet" href="{{ 'assets/css/brands.min.css'|theme }}" />
+		<link rel="stylesheet" href="{{ 'assets/css/solid.min.css'|theme }}" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="{{ 'assets/css/ie9.css'|theme }}" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ 'assets/css/ie8.css'|theme }}" /><![endif]-->
+		<noscript><link rel="stylesheet" href="{{ 'assets/css/noscript.css'|theme }}" /></noscript>
+	</head>
+
+	<body class="is-loading">
+	    <div id="wrapper">
+
+            {% page %}
+        
+            {% partial 'footer' %}
+        
+        </div>
+
+		<!-- JS -->
+		<!--[if lte IE 8]><script src="{{ 'assets/js/respond.min.js'|theme }}"></script><![endif]-->
+		<script>
+			if ('addEventListener' in window) {
+				window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+				document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+			}
+		</script>
+		
+	</body>
+</html>

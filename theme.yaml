@@ -1,0 +1,51 @@
+name: Mythos
+description: 'Mythos theme - Based on Identity-Theme by Saifur Rahman Mohsin'
+author: 'Janrik Viljanen'
+homepage: 'https://janrikv.fi'
+code: mythos
+
+
+form:
+  fields:
+    site_name:
+      label: Site name
+      commentAbove: The name of your site
+      default: Mythos
+
+    profile_picture:
+        label: Photo Source
+        type: dropdown
+        span: left
+        commentAbove: The source of your profile picture
+        options:
+            custom: Custom - Shows profile.png in assets/img folder
+            facebook: Facebook - Facebook profile photo
+            octobercms: OctoberCMS - Shows your OctoberCMS profile photo
+
+    facebook_id:
+        label: Facebook profile ID
+        span: right
+        commentAbove: You can get your Facebook ID using https://lookup-id.com
+        trigger:
+            action: show
+            field: profile_picture
+            condition: value[facebook]
+    
+    my_name:
+        label: My name
+        span: left
+        commentAbove: Your name will appear below the profile picture on the site.
+        default: John Doe
+
+    title:
+        label: Professional title
+        span: right
+        commentAbove: You can tell about your profession or whatever.
+
+    phone:
+        label: Phone number
+        span: left
+
+    email:
+        label: Email
+        span: right
