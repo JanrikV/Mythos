@@ -1,22 +1,20 @@
+![Mythos OctoberCMS](https://raw.githubusercontent.com/JanrikV/Mythos/master/assets/images/mythos.png)
+
+
 # [Mythos](https://github.com/JanrikV/Mythos) #
 
 Theme for OctoberCMS. Based on [Identity-Theme](https://github.com/SaifurRahmanMohsin/Identity-Theme).
 
 ## Quick start installation
 
-To install from the Marketplace, click on the "Add to Project" button and then select the project you wish to add it to before updating the project to pull in the plugin.
+```
+[ -f artisan ] && cd themes
+wget https://github.com/JanrikV/Mythos/archive/master.zip
+[ -f master ] && unzip master || unzip master.zip
+rm $_
+mv Mythos-master mythos && cd $_
+```
 
-Or 
-
-`php artisan theme:install AuthorName.ThemeName my-theme`
-
-Replace `<theme>` with the name of your theme.
-
-## Using the theme
-
-`$ php artisan theme:use <name>`
-
-Where `<name>` is whatever you specified in `theme:install`.
 
 ## Sources and Credits
 
@@ -25,5 +23,6 @@ Where `<name>` is whatever you specified in `theme:install`.
 - [Respond.js](http://j.mp/respondjs) by Scott Jehl
 - [HTML5 Shiv](https://github.com/aFarkas/html5shiv) by afarkas, jdalton, jon_neal and rem
 - [OctoberCMS](http://octobercms.com) by Alexey Bobkov and Samuel Georges.
-- [Snow photo](https://www.freepik.com/photos/snow) by wirestock
+- [HTML5 UP](http://html5up.net/uploads/demos/identity)
+- [Beautiful shot of high white hilltops and mountains covered in fog](https://www.freepik.com/free-photo/beautiful-shot-high-white-hilltops-mountains-covered-fog_7629796.htm) by wirestock
   
