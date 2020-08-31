@@ -24,5 +24,6 @@ mv Mythos-master mythos && cd $_
 - [HTML5 Shiv](https://github.com/aFarkas/html5shiv) by afarkas, jdalton, jon_neal and rem
 - [OctoberCMS](http://octobercms.com) by Alexey Bobkov and Samuel Georges.
 - [HTML5 UP](http://html5up.net/uploads/demos/identity)
+- [Quicksand](github.com/andrew-paglinawan/QuicksandFamily) by Andrew Paglinawan
 - [Beautiful shot of high white hilltops and mountains covered in fog](https://www.freepik.com/free-photo/beautiful-shot-high-white-hilltops-mountains-covered-fog_7629796.htm) by wirestock
   
