@@ -12,7 +12,7 @@ Theme for OctoberCMS. Based on [Identity-Theme](https://github.com/SaifurRahmanM
 wget https://github.com/JanrikV/Mythos/archive/master.zip
 [ -f master ] && unzip master || unzip master.zip
 rm $_
-`mv Mythos-master mythos && cd $_
+mv Mythos-master mythos && cd $_
 ```
 
 
