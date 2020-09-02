@@ -6,8 +6,8 @@ is_hidden = 0
 
 <?php
 
-function onInit()
-{
+function onInit() {
+
     $user = \BackendAuth::getUser();
     $profilePhoto = '';
     
@@ -16,26 +16,24 @@ function onInit()
     }
 
     $this['profilePhoto'] = $profilePhoto;
-    
 }
 
 ?>
 
 ==
-
 <section id="main">
     <header> 
         <span class="profile-picture">
-        {% if this.theme.profile_picture == 'facebook' %}
+            {% if this.theme.profile_picture == 'facebook' %}
     	    <img width="122" height="122" src="//graph.facebook.com/{{ this.theme.facebook_id }}/picture?width=122" alt="" />
-        {% elseif this.profile_picture == 'octobercms' and profilePhoto != '' %}
+            {% elseif this.profile_picture == 'octobercms' and profilePhoto != '' %}
 	        <img width="122" height="122" src="{{ profilePhoto.getThumb(122, 122, 'crop') }}" alt="" />
-        {% else %}
+            {% else %}
 	        <img width="122" height="122" src="{{ 'assets/images/profile.png'|theme }}" alt="" />
-        {% endif %}
+            {% endif %}
         </span>
         
-        <!-- Use your full name or nick name -->
+        <!-- Use your full name or nickname -->
     	<h1>{{ this.theme.my_name }}</h1>
 
         <!-- E.g. professional title -->
