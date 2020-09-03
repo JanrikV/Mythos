@@ -3,7 +3,9 @@
 
 # [Mythos](https://github.com/JanrikV/Mythos) #
 
-Theme for OctoberCMS. Based on [Identity-Theme](https://github.com/SaifurRahmanMohsin/Identity-Theme).
+Theme for OctoberCMS. Based on [Identity-Theme](https://github.com/SaifurRahmanMohsin/Identity-Theme). 
+
+Live preview: [janrikv.fi](https://janrikv.fi/)
 
 ## Installation
 
