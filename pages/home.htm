@@ -11,8 +11,8 @@ function onInit() {
     $user = \BackendAuth::getUser();
     $profilePhoto = '';
     
-    if ( $user && $user -> avatar ) {
-         $profilePhoto = $user -> avatar;
+    if ( $user && $user-> avatar ) {
+         $profilePhoto = $user-> avatar;
     }
 
     $this['profilePhoto'] = $profilePhoto;
