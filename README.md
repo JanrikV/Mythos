@@ -1,9 +1,9 @@
 ![Mythos October CMS](https://raw.githubusercontent.com/JanrikV/Mythos/master/assets/images/mythos.png)
 
 
-# [Mythos](https://github.com/JanrikV/Mythos) #
+# Mythos - October CMS
 
-Theme for October CMS. Based on [Identity-Theme](https://github.com/SaifurRahmanMohsin/Identity-Theme). 
+Theme for **October CMS**. Based on [Identity-Theme](https://github.com/SaifurRahmanMohsin/Identity-Theme). 
 
 ## Installation
 
